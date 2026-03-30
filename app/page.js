@@ -114,16 +114,16 @@ export default function Home() {
       <section id="campus-tour" className="py-12 lg:py-24 bg-gray-900 relative">
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10" />
         <div className="container mx-auto px-4 md:px-6 relative z-10">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
+          <div className="text-center mb-8 md:mb-12">
+            <h2 className="text-3xl md:text-5xl font-bold text-white mb-4 md:mb-6">
               Explore Our Campus
             </h2>
-            <p className="text-gray-400 max-w-2xl mx-auto text-lg hover:text-gray-300 transition-colors">
+            <p className="text-gray-400 max-w-2xl mx-auto text-base sm:text-lg hover:text-gray-300 transition-colors">
               Take a virtual flight over the Silver Crown High School premises and witness our infrastructure firsthand.
             </p>
           </div>
           
-          <div className="mx-auto max-w-5xl rounded-3xl overflow-hidden shadow-2xl ring-1 ring-white/10 aspect-video relative group">
+          <div className="mx-auto max-w-5xl rounded-xl md:rounded-3xl overflow-hidden shadow-2xl ring-1 ring-white/10 aspect-video relative group">
             <iframe 
               className="w-full h-full absolute inset-0"
               src="https://www.youtube.com/embed/7O-GzZ-OYvA?si=btunHivjtzozfx27" 
