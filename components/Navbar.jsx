@@ -57,9 +57,9 @@ export default function Navbar() {
             alt="Silver Crown High School Logo" 
             width={40} 
             height={40} 
-            className="w-10 h-10 object-contain rounded-full group-hover:scale-110 transition-all duration-300 transform" 
+            className="w-8 h-8 md:w-10 md:h-10 object-contain rounded-full group-hover:scale-110 transition-all duration-300 transform" 
           />
-          <span className={`text-xl md:text-2xl font-bold tracking-tight transition-colors ${scrolledStyle ? "text-primary-dark" : "text-white"}`}>
+          <span className={`text-lg sm:text-xl md:text-2xl font-bold tracking-tight transition-colors ${scrolledStyle ? "text-primary-dark" : "text-white"}`}>
             Silver Crown High School
           </span>
         </Link>

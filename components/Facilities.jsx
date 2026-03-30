@@ -50,7 +50,7 @@ export default function Facilities() {
   ];
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-12 md:py-20 bg-gray-50">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <motion.h2 
@@ -81,7 +81,7 @@ export default function Facilities() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: fac.delay }}
-              className="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-gray-100"
+              className="bg-white p-6 md:p-8 rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-gray-100"
             >
               <div className="w-16 h-16 rounded-xl bg-primary/10 flex items-center justify-center mb-6">
                 {fac.icon}

@@ -63,14 +63,14 @@ export default function Hero() {
             Welcome to Excellence
           </div>
 
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight mb-6 leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight mb-6 leading-tight">
             Silver Crown <br className="hidden md:block" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-300">
               High School
             </span>
           </h1>
 
-          <p className="text-lg md:text-xl lg:text-2xl text-gray-200 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-200 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
             Building Bright Futures Through Quality Education in Warangal. Empowering students to excel in life.
           </p>
 

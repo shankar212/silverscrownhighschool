@@ -13,7 +13,7 @@ export default function GalleryPage() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-16 bg-gray-900 text-center relative overflow-hidden">
+      <section className="pt-28 md:pt-32 pb-12 md:pb-16 bg-gray-900 text-center relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <div className="absolute inset-0 bg-gradient-to-r from-primary-dark to-gray-900 mix-blend-multiply" />
           <img 

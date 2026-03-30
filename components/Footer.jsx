@@ -3,9 +3,9 @@ import { MapPin, Phone, Mail, Facebook, Twitter, Instagram, Linkedin, Youtube, G
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-300 pt-16 pb-8 border-t border-gray-800">
+    <footer className="bg-gray-900 text-gray-300 pt-12 md:pt-16 pb-8 border-t border-gray-800">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10 lg:gap-12 mb-12 md:mb-16">
 
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2 mb-6">

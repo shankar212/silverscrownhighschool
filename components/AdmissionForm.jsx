@@ -33,7 +33,7 @@ export default function AdmissionForm() {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
-      className="bg-white rounded-3xl shadow-xl p-8 md:p-10 border border-gray-100"
+      className="bg-white rounded-3xl shadow-xl p-6 md:p-10 border border-gray-100"
     >
       <div className="mb-8">
         <h3 className="text-2xl font-bold text-gray-900 mb-2">Apply for Admission</h3>

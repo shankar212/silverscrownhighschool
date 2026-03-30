@@ -14,7 +14,7 @@ export default function AdmissionsPage() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-16 bg-primary text-white text-center">
+      <section className="pt-28 md:pt-32 pb-12 md:pb-16 bg-primary text-white text-center">
         <div className="container mx-auto px-4 md:px-6">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Admissions Open</h1>
           <p className="text-lg md:text-xl text-primary-100 max-w-2xl mx-auto">
@@ -23,7 +23,7 @@ export default function AdmissionsPage() {
         </div>
       </section>
 
-      <section className="py-20 flex-grow">
+      <section className="py-12 md:py-20 flex-grow">
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col lg:flex-row gap-16">
             
@@ -64,7 +64,7 @@ export default function AdmissionsPage() {
                 </div>
               </div>
 
-              <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100">
+              <div className="bg-blue-50 p-6 md:p-8 rounded-3xl border border-blue-100">
                 <div className="flex items-center gap-3 mb-4">
                   <GraduationCap className="w-6 h-6 text-primary" />
                   <h3 className="text-xl font-bold text-gray-900">Why choose us?</h3>

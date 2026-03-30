@@ -39,7 +39,7 @@ export default function Leadership() {
   }, []);
 
   return (
-    <section className="py-24 bg-gray-50 relative overflow-hidden">
+    <section className="py-12 md:py-24 bg-gray-50 relative overflow-hidden">
       {/* Decorative background */}
       <div className="absolute top-0 left-0 w-full h-1/2 bg-white rounded-b-[100px] -z-10" />
 
@@ -65,7 +65,7 @@ export default function Leadership() {
             >
               <div className="flex flex-col md:flex-row">
                 {/* Image Section */}
-                <div className="md:w-2/5 relative h-[400px] md:h-auto overflow-hidden">
+                <div className="md:w-2/5 relative h-[300px] md:h-auto overflow-hidden">
                   <img
                     src={leaders[currentIndex].image}
                     alt={leaders[currentIndex].name}
@@ -78,8 +78,8 @@ export default function Leadership() {
                 </div>
 
                 {/* Message Section */}
-                <div className="md:w-3/5 p-8 md:p-12 lg:p-16 flex flex-col justify-center relative">
-                  <Quote className="absolute top-8 left-8 w-24 h-24 text-gray-100 -z-10 transform -rotate-6" />
+                <div className="md:w-3/5 p-6 md:p-12 lg:p-16 flex flex-col justify-center relative">
+                  <Quote className="absolute top-4 left-4 md:top-8 md:left-8 w-16 h-16 md:w-24 md:h-24 text-gray-100 -z-10 transform -rotate-6" />
 
                   <blockquote className="text-xl md:text-2xl text-gray-700 leading-relaxed font-light italic mb-8 relative z-10">
                     "{leaders[currentIndex].message}"

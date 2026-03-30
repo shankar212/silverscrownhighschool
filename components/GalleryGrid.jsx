@@ -43,7 +43,7 @@ export default function GalleryGrid() {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-12 md:py-20 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <motion.h2
@@ -66,7 +66,7 @@ export default function GalleryGrid() {
           </motion.p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 md:grid-rows-3 gap-4 md:max-h-[800px] md:h-[800px] auto-rows-[250px] md:auto-rows-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 md:grid-rows-3 gap-4 md:max-h-[800px] md:h-[800px] auto-rows-[200px] md:auto-rows-auto">
           {images.map((img, i) => (
             <motion.div
               key={img.id}
